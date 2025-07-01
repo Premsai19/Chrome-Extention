@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Time Tracker",
+  "version": "1.0",
+  "description": "Track time spent on websites and get productivity insights.",
+  "permissions": ["tabs", "storage"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "Time Tracker"
+  },
+  "host_permissions": ["<all_urls>"]
+}
